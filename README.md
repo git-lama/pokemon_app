@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
 
-* System dependencies
-
-* Configuration
+  -  `ruby-3.2.0`
 
 * Database creation
 
+  -  `rake db:create`
+
 * Database initialization
+
+  -  `rake db:migrate`
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+  - `rake test`
 
-* Deployment instructions
+* Params for `pokemon:create` API
 
-* ...
+  - `name: string, type1: integer, type2: integer, total: integer, hp: integer, attack: integer, defense: integer, sp_atk: integer, sp_def: integer, speed: integer, generation: integer, legendary: boolean`
+
+*
