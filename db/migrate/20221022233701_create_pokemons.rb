@@ -12,7 +12,7 @@ class CreatePokemons < ActiveRecord::Migration[7.0]
       t.integer :sp_def
       t.integer :speed
       t.integer :generation
-      t.integer :legendary
+      t.boolean :legendary
 
       t.timestamps
     end
